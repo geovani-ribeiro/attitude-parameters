@@ -5,7 +5,7 @@
 
 ### University of São Paulo & University of Brasília
 
-In this project, you can manipulate some attitude parameters with a Graphical User Interface (GUI).
+In this project, the user can manipulate some attitude parameters with a Graphical User Interface (GUI).
 
 ## Prerequisites
 - numpy
