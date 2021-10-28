@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 """
 Created on Sat Aug 21 09:20:05 2021
 
-@author: geovani teste
+@author: geovani 
 """
 
 from tkinter import * 
@@ -367,7 +368,7 @@ def command3():
     
     #definição das mensagens
     label_3 = Label(top3,
-                    text = "Enter the principal rotation vector data:",
+                    text = "Enter the principal rotation vector such that angle is in deg",
                     font = "Arial 11",
                     justify = LEFT
                     ).grid(row= 1, column = 1)
@@ -871,7 +872,7 @@ cmd2 = Button(menu_inicial,
               ).grid(row = 3, column =0)
 
 cmd3 = Button(menu_inicial,
-              text = "Principal Rotation Vectors",
+              text = "Principal Rotation Vector",
               bg ="grey",
               bd = 3,
               relief = "ridge",
@@ -879,7 +880,7 @@ cmd3 = Button(menu_inicial,
               ).grid(row = 3, column =0, stick ='se')
 
 cmd4 = Button(menu_inicial,
-              text = "CRP",
+              text = "Classical Rodrigues Parameters",
               bg ="grey",
               bd = 3,
               relief = "ridge",
@@ -895,7 +896,7 @@ cmd5 = Button(menu_inicial,
               ).grid(row = 4, column =0)
 
 cmd6 = Button(menu_inicial,
-              text = "MRP",
+              text = "Modified Rodrigues Parameters",
               bg ="grey",
               bd = 3,
               relief = "ridge",
