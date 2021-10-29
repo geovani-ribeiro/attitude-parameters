@@ -9,11 +9,12 @@ Created on Sat Aug 21 09:20:05 2021
 
 from tkinter import * 
 import numpy as np
+import webbrowser
 
 menu_inicial = Tk()
 menu_inicial.title('Graphical User Interface for Attitude Coordinates of Satellites')
-menu_inicial.iconbitmap('@/home/geovani/Documentos//Attitude-Parameters/icon.xbm')    
-menu_inicial.call('wm', 'iconphoto', menu_inicial._w, PhotoImage(file='/home/geovani/Documentos/Attitude-Parameters/icon.gif'))
+#menu_inicial.iconbitmap('@/home/geovani/Documentos//Attitude-Parameters/icon.xbm')    
+#menu_inicial.call('wm', 'iconphoto', menu_inicial._w, PhotoImage(file='/home/geovani/Documentos/Attitude-Parameters/icon.gif'))
 #menu_inicial['bg'] = "black"
 
 menu_inicial.resizable(0, 0)
@@ -67,6 +68,16 @@ def helpc():
                     anchor = N,
                     justify = RIGHT
                     ).grid(row= 1, column = 1)
+
+    label = Label(toph,
+                text = "For more information: ",   
+                font = "Arial 8"      
+                ).grid(row=2, column=1)   
+
+    link1 = Label(toph, text="https://github.com/geovani-ribeiro/attitude-parameters", fg="blue", cursor="hand2")
+    link1.grid(row=3, column=1)
+    link1.bind("<Button-1>", lambda e: callback("https://github.com/geovani-ribeiro/attitude-parameters"))
+
     
 
 #funções para o algoritmo   
