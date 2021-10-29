@@ -379,7 +379,7 @@ def command3():
     
     #definição das mensagens
     label_3 = Label(top3,
-                    text = "Enter the principal rotation vector such that angle is in deg",
+                    text = "Enter the principal rotation vector such that angle is in deg:",
                     font = "Arial 11",
                     justify = LEFT
                     ).grid(row= 1, column = 1)
