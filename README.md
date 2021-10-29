@@ -25,7 +25,7 @@ In the first step, the user selects the attitude parameter he has and is directe
 
 In the second step, the main satellite attitude parameters are calculated providing data for the Euler angles, principal rotation vector, classic Rodrigues parameters and modified Rodrigues parameters.
 
-It's very easy, isn't it?!!
+_It's very easy, isn't it?!_
 
 ## License
 The __attitude-parameters__ library is released and distributed on github as an open source package under the MIT license.
