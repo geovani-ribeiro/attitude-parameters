@@ -4,7 +4,7 @@
 """
 Created on Sat Aug 21 09:20:05 2021
 
-@author: geovani ribeiro & william reis & katia candioto gandolpho
+@author: geovani ribeiro & william reis & katia candioto 
 """
 
 from tkinter import * 
