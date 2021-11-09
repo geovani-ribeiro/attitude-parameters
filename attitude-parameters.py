@@ -24,7 +24,7 @@ menu_inicial.resizable(0, 0)
 #menu_inicial.maxsize(960, 200)
 
 #altura e largura do programa
-largura = 860
+largura = 878
 altura = 200
 
 #resolução
@@ -250,7 +250,7 @@ def command2():
     
     #definição das mensagens
     label_5 = Label(top2,
-                    text = "Enter the Angle Euler (3-2-1) in deg:",
+                    text = "Enter the Euler angles (3-2-1) in deg:",
                     font = "Arial 11",
                     justify = LEFT
                     ).grid(row= 1, column = 1)
@@ -844,7 +844,7 @@ helpb = Button(menu_inicial,
                ).grid(rowspan = 1, column = 0, stick ='nw')
 
 label_1 = Label(menu_inicial,
-                text = "Hello, this is an algorithm developed by Geovani Augusto Xavier Ribeiro.",
+                text = "Hello, this is an algorithm developed by Geovani Augusto Xavier Ribeiro",
                 font = "Arial 10",
                 bd = 5,
                 relief = "ridge",
@@ -855,7 +855,7 @@ label_1 = Label(menu_inicial,
                 ).grid(rowspan = 1, column = 0, stick = N)
 
 label_2 = Label(menu_inicial,
-                text = "You can calculate the main coordinate attitude with algorithm.\n First, is necessary to know some informations, click on the box with the information you have.",
+                text = "You can calculate the main coordinate attitude with this algorithm.\n First, it's necessary to know some informations, click on the box with the information you have.",
                 font = "Arial 11"
                 ).grid(row =2, column = 0,stick=N)
 
