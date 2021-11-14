@@ -313,7 +313,7 @@ def command2():
         sigma = np.tan(Phi/4)*e
     
         #sets
-        phi_final.set(r'The angle principal rotation vector is ' + str(round(Phideg,3)) + '°')
+        phi_final.set(r'The angle principal rotation vector is ' + str(round(Phideg,4)) + '°')
         e_final.set(r'The principal rotation vector is ' + str(e))
         beta_final.set("The quaternion is "+str(beta))
         q_final.set("The classical Rodrigues parameters is "+ str(q))
