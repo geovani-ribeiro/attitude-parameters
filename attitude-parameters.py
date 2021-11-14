@@ -161,7 +161,7 @@ def command1():
         phi = np.rad2deg(np.arctan(float(C23.get())/float(C33.get())))
 
         #sets
-        euler_final.set("The Euler Angles is (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")
+        euler_final.set("The Euler Angles (3-2-1) in deg are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")
         phi_final.set(r'The angle principal rotation vector is ' + str(round(np.rad2deg(Phi),3)) + '°')
         e_final.set(r'The principal rotation vector is ' + str(e)) 
         beta_final.set("The quaternion is "+str(beta))
@@ -437,7 +437,7 @@ def command3():
         phi = np.rad2deg(np.arctan(C23/C33))
         
         #sets
-        euler_final.set("The Euler Angles is (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
+        euler_final.set("The Euler Angles (3-2-1) in deg are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
         beta_final.set("The quaternion is "+str(beta))
         q_final.set("The classical Rodrigues parameters is "+ str(q))
         sigma_final.set("The modifed Rodrigues parameters is " + str(sigma))
@@ -567,7 +567,7 @@ def command4():
         phi = np.rad2deg(np.arctan(C23/C33))
         
         #sets
-        euler_final.set("The Euler Angles is (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
+        euler_final.set("The Euler Angles (3-2-1) in deg are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
         phi_final.set(r'The angle principal rotation vector is ' + str(round(Phideg,3)) + '°')
         e_final.set(r'The principal rotation vector is ' + str(e))
         beta_final.set("The quaternion is "+str(beta))
@@ -670,7 +670,7 @@ def command5():
         psi = np.rad2deg(np.arctan(C12/C11))
         theta = np.rad2deg(-1*np.arcsin(C13))
         phi = np.rad2deg(np.arctan(C23/C33))
-        euler_final.set("The Euler Angles is (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
+        euler_final.set("The Euler Angles (3-2-1) in deg are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
         
     #widgets
     label_beta0 = Label(top5, font = "Arial 10", text='β_0:')
@@ -800,7 +800,7 @@ def command6():
         psi = np.rad2deg(np.arctan(C12/C11))
         theta = np.rad2deg(-1*np.arcsin(C13))
         phi = np.rad2deg(np.arctan(C23/C33))
-        euler_final.set("The Euler Angles are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
+        euler_final.set("The Euler Angles in deg are (" + str(round(psi,3)) + ", " +str(round(theta,3)) +", " +str(round(phi,3))+ ")")  
         
         
         
