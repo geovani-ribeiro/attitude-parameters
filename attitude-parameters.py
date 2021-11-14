@@ -9,7 +9,7 @@ Created on Sat Aug 21 09:20:05 2021
 
 from tkinter import * 
 import numpy as np
-import webbrowser
+#import webbrowser
 
 menu_inicial = Tk()
 menu_inicial.title('Graphical User Interface for Attitude Coordinates of Satellites')
@@ -76,7 +76,7 @@ def helpc():
 
     link1 = Label(toph, text="https://github.com/geovani-ribeiro/attitude-parameters", fg="blue", cursor="hand2")
     link1.grid(row=3, column=1)
-    link1.bind("<Button-1>", lambda: webbrowser.open("https://github.com/geovani-ribeiro/attitude-parameters"))
+    #link1.bind("<Button-1>", lambda: webbrowser.open("https://github.com/geovani-ribeiro/attitude-parameters"))
 
     
 
