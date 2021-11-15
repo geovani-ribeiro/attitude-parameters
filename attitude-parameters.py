@@ -5,6 +5,7 @@
 Created on Sat Aug 21 09:20:05 2021
 
 @author: geovani a. x. ribeiro & william r. silva & katia c. g. candioto 
+geovani.augusto@usp.br
 """
 
 from tkinter import * 
