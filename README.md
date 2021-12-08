@@ -29,3 +29,7 @@ _It's very easy, isn't it?!_
 
 ## License
 The __attitude-parameters__ library is released and distributed on github as an open source package under the MIT license.
+
+## Cite the code
+[![DOI](https://zenodo.org/badge/422240084.svg)](https://zenodo.org/badge/latestdoi/422240084)
+
